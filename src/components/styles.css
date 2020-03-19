@@ -1,0 +1,92 @@
+.searchContainer {
+  max-width: 40vw;
+  margin-top: 15vh;
+  margin-left: 30vw;
+}
+.searchToolbar {
+  background-color: white;
+}
+.searchInputBase {
+  width: 100%;
+}
+.imagePerson {
+  width: 20vw;
+  height: 20vh;
+}
+@media(max-width:48em){
+  .imagePerson{
+    height: 15vh;
+  }
+}
+
+.persona {
+    width: 60vw;
+    display: flexbox;
+    margin-top: 5vh;
+    margin-left: 10px;
+    border-radius: 10px;
+    background: #52c234;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #061700, #52c234);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #061700, #52c234); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;    
+}
+
+.capitulo{
+  width: 20vw;
+  height: 10vh;
+    display: flexbox;
+    margin-top: 5vh;
+    margin-left: 10px;
+    border-radius: 10px;
+  background: #52c234;
+  background: -webkit-linear-gradient(to top, #061700, #52c234); 
+  background: linear-gradient(to top, #061700, #52c234);
+  color: white;   
+  text-align: center;
+  cursor: pointer;
+}
+
+@media(max-width:48em){
+  .capitulo{
+    width: 45vw;
+    height: 20vh;
+  }
+}
+
+.imagenInfo{
+  margin-top: 10vh;
+  border-radius: 10px;
+}
+
+.info{
+  width: 50vw;
+  margin-left: 25vw;
+  border:solid 5px black;
+  border-radius: 20px;
+}
+@media(max-width:48em){
+  .info{
+    width: 80vw;
+    margin-left: 10vw;
+  }
+}
+ul {
+  list-style-type: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.capituloInfo{
+  padding-top: 10vh;
+  padding-right: 5vw;
+}
+
+.encabezado{
+  width: 50vw;
+  margin-top: 10vh;
+}
+
+@media(max-width:48em){
+  .encabezado{
+    width: 50vw;
+  }
+}

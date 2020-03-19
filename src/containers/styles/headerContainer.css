@@ -1,0 +1,29 @@
+.headerContainer {
+  width: 30vw;
+  height: 20vh;
+  margin-left: 35vw;
+  margin-bottom: 30px;
+}
+.images{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 15vh;
+}
+
+@media(max-width:48em){
+  .headerContainer{
+    width: 30vw;
+    height: 20vh;
+    margin-left: 20vw;
+    margin-bottom: 5vh;
+  }
+}
+
+@media(max-width:48em){
+  .images{
+    text-align: center;
+    width: 60vw;
+    height: 20vh;
+  }
+}

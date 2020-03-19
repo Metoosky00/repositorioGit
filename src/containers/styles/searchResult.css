@@ -1,0 +1,19 @@
+.searchResult{
+    width: 100vw;
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: 5vh;
+}
+
+.pagination{
+    margin-left: 35vw;
+}
+.buttonP{
+    border-radius: 20px;
+    background-color: white;
+    border-color: white;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    opacity: 90%;
+    cursor: pointer;
+}
